@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-y: scroll;
+}
+
+nav{
+    padding: 0 10% 0 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    padding: 10% 13% 10% 13%;
+    background-color: white;
+}
+
+.main h1{
+    font-size: 5vw;
+    text-align: center;
+}
+
+.temporary1{
+    padding: 0 15% 0 15%;
+}
+
+.temporary5{
+    margin: 5% 0 3% 0;
+}
+
+.main p{
+    font-size: 1.7vw;
+    text-align: center;
+    line-height: 130%;
+}
+
+.temporary5 p{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+.temporary7 img{
+    display: flex;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.temporary, .temporary3, .temporary6, .temporary7, .temporary8, .temporary9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temporary a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    border: 1px solid rgba(31, 31, 31, 0.1);
+}
+
+.temporary3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.temporary3 img{
+    max-height: 70%;
+    max-width: 100%;
+}
+
+.temporary6{
+    padding: 2% 0 1.5% 0;
+}
+
+.temporary6 h2{
+    font-size: 2.5vw;
+}
+
+.temporary8{
+    flex-direction: row;
+}
+
+.temporary8 hr {
+    width: 35%;
+}
+
+.temporary8 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5vw;
+}
+
+.temporary9{
+    padding: 0 15% 0 15%;
+}
+
+.temporary9 h2{
+    font-size: 1.5vw;
+}
+
+.temporary9 li{
+    font-size: 1.3vw;
+    color: rgb(34, 34, 34);
+}
+
+.temporary10{
+    padding: 10% 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.temporary10 h5{
+    font-size: 1.3vw;
+}
+
+.temporary10 a{
+    text-decoration: none;
+    color: rgb(51, 51, 255);
+    font-size: 1.3vw;
+}
+
+.holdme{
+    padding: 0 3% 0 3%; 
+}
+
+.holdme1{
+    padding: 0 3% 0 0;
+}
+
+.holdme2, .holdme, .holdme1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hmmm{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hmmm h2{
+    padding: 5% 0 2% 0;
+}
+
+.system{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wahala{
+    display: flex;
+    flex-direction: row;
+}
+
+.wahalaeux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wahalaeux h3{
+    font-size: 2vw;
+}
+
+.wahalaeux h5{
+    font-size: 1.2vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 1.5% 0 1.5% 0;
+}
+
+.container img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-size: 1vw;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.wahala img{
+   max-width: 100%; 
+   max-height: 70%;
+}
+
+.microsoft{
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.support{
+    background-color: #fbfbfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 10% 0 10%; 
+}
+
+.support h2{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.support p{
+    padding-top: 4%;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.support a {
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+.trial{
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    justify-content: center;
+}
+
+.angle-right{
+    color: blue;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15% 2% 15% 2%;
+}
+
+footer{
+    padding: 0 10% 0 10%;
+    background-color: whitesmoke;
+    font-size: 1.2vw;
+}
+
+.retailer a{
+    text-decoration: none;
+}
+
+.terms{
+    color: rgb(155, 155, 155);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.terms-of-use{
+    width: 17%;
+    position: relative;
+    right: 23%;
+}
+
+.use{
+    padding-right: 7%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.site-map{
+    padding-left: 7%;
+}
+
+.terms h5{
+    padding-top: 1%;
+}
+
+.terms div{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.main-footer a:hover, .sub-footer a:hover, .terms a:hover, .support a:hover, .retailer a:hover, .temporary8 a:hover, .temporary10 a:hover{
+    text-decoration: underline;
+}
+
+.sub-footer{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1% 0 0 0;
+}
+
+.sub-footer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sub-footer a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.iphone{
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-footer{
+    padding: 1% 0 2% 0;
+}
+
+.pre-footer h5, .main-footer a{
+    color: rgb(155, 155, 155);
+    font-size: 1vw;
+}
+
+.main-footer a{
+    padding-top: 1.5vh;
+}
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 1% 0;
+}
+
+.explore h3{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 280px){
+    .main-footer a{
+        padding-top: 1.5vh;
+    }
+    .container img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 320px){
+    .main-footer a{
+        padding-top: 1.5vh;
+    }
+    .container img{
+        max-width: 0.3vw;
+        max-height: 0.3vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container img{
+        max-width: 1px;
+        max-height: 1px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container img{
+        max-width: 4px;
+        max-height: 4px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .container img{
+        max-width: 13px;
+        max-height: 13px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .container img{
+        max-width: 17px;
+        max-height: 17px;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 834px){
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-footer a{
+        display: none;
+    }
+
+    .explore h3{
+        color: rgb(155, 155, 155);
+        font-size: 1vw;
+    }
+
+    .explore{
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+}
