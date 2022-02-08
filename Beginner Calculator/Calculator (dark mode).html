@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link type="text/css" rel="stylesheet" href="Calculator (dark mode).css" />
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div id="calculator">
+            <div class="header">
+            <h1>Calculator</h1>
+            </div>
+
+            <input id= "result">
+
+            
+            <div class="buttons">
+                <div class="first">
+                    <button id="add" onclick="displaybuttons17()">+</button>
+                    <button id="divide" onclick="displaybuttons1()">÷</button>
+                    <button id="subtract" onclick="displaybuttons11()">-</button>
+                    <button id="multiply" onclick="displaybuttons3()">×</button>
+                </div>
+                <div class="second">
+                    <button id="7" onclick="displaybuttons4()">7</button>
+                    <button id="8" onclick="displaybuttons5()">8</button>
+                    <button id="9" onclick="displaybuttons6()">9</button>
+                    <button id="percent" onclick="displaybuttons2()">%</button>
+                </div>
+                <div class="third">
+                    <button id="4" onclick="displaybuttons8()">4</button>
+                    <button id="5" onclick="displaybuttons9()">5</button>
+                    <button id="6" onclick="displaybuttons10()">6</button>
+                    <button id="c" onclick="clearscreen()">C</button>
+                </div>
+                <div class="fourth">
+                    <button id="1" onclick="displaybuttons12()">1</button>
+                    <button id="2" onclick="displaybuttons13()">2</button>
+                    <button id="3" onclick="displaybuttons14()">3</button>
+                    <button id="delete" onclick="displaybuttons19()">⌫</button>
+                </div>
+                <div class="fifth">
+                    <button id="." onclick="displaybuttons15()">.</button>
+                    <button id="0" onclick="displaybuttons16()">0</button>
+                    <button id="equal-to" onclick="calculation()">=</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer>
+            <script src= "Calculator_Output.js"></script>
+        </footer>   
+</body>
+</html>
