@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'AvQest';
+    src: url('AvQest.woff2') format('woff2'),
+        url('AvQest.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-image: url("backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: 'AvQest';
+    font-size: 60px;
+    color: white;
+}
+
+.third{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    animation-name: third;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes third {
+    0%{
+        bottom: -500px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+.first{
+    position: relative;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes first {
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+.second{
+    position: relative;
+    animation-name: second;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second {
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: azure;
+    opacity: 0;
+    margin-top: 25px;
+    transition-property: all;
+    transition-duration: 2s;
+    animation-name: button;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: yellow;
+    transform: rotateY(360deg);
+}
+
+@keyframes button {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#sound{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sound:hover{
+    cursor: pointer;
+}

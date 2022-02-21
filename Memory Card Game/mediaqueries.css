@@ -1,0 +1,85 @@
+@media screen and (min-width: 200px) and (max-width: 319px) {
+    .title{
+        font-size: 20px;
+    }
+
+    .third{
+        font-size: 13px;
+    }
+
+    .btn{
+        width: 75px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .btn:hover{
+        transform: none;
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .title{
+        font-size: 30px;
+    }
+
+    .third{
+        font-size: 15px;
+    }
+
+    .btn{
+        width: 75px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .btn:hover{
+        transform: none;
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .title{
+        font-size: 45px;
+    }
+
+    .third{
+        font-size: 22.5px;
+    }
+
+    .btn{
+        width: 112.5px;
+        height: 37.5px;
+        font-size: 13px;
+    }
+
+    .btn:hover{
+        transform: none;
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .title{
+        font-size: 50px;
+    }
+
+    .third{
+        font-size: 27.5px;
+    }
+
+    .btn{
+        width: 112.5px;
+        height: 37.5px;
+        font-size: 13px;
+    }
+
+    .btn:hover{
+        transform: none;
+        background-color: transparent;
+    }
+}
+
+
