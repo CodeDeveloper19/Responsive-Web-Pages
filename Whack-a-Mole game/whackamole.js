@@ -358,6 +358,16 @@ function mainmenu(){
     counter = 0;
     document.getElementById("instructions").style.visibility = "visible";
     document.getElementById("instructions12").style.visibility = "visible";
+
+    thirty1.classList.remove("change");
+    sixty1.classList.remove("change");
+    onetwenty1.classList.remove("change");
+    oneeighty1.classList.remove("change");
+    twoforty1.classList.remove("change");
+
+    easy1.classList.remove("change");
+    medium1.classList.remove("change");
+    hard1.classList.remove("change");
 }
 
 function timer() {
