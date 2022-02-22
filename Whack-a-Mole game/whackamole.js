@@ -223,7 +223,16 @@ var difficulty;  /* Use this to set how fast the mole will be spawned (difficult
 var counts;
 var timeds;
 var popss;
-var audio = new Audio('splat.mp3');
+var audio1 = new Audio('splat.mp3');
+var easy1 = document.getElementById("easy");
+var medium1 = document.getElementById("medium");
+var hard1 = document.getElementById("hard");
+var thirty1 = document.getElementById("thirty");
+var sixty1 = document.getElementById("sixty");
+var onetwenty1 = document.getElementById("onetwenty");
+var twoforty1 = document.getElementById("twoforty");
+var oneeighty1 = document.getElementById("oneeighty");
+
 
 function begin (){
     if (count == undefined || counts == undefined){
@@ -268,41 +277,75 @@ function end(){
 }
 
 function easy(){
+    easy1.classList.add("change");
+    medium1.classList.remove("change");
+    hard1.classList.remove("change");
     counts = 1;
     difficulty = 1000;
 }
 
 function medium(){
+    easy1.classList.remove("change");
+    medium1.classList.add("change");
+    hard1.classList.remove("change");
     counts = 2;
     difficulty = 750;
 }
 
 function hard(){
+    easy1.classList.remove("change");
+    medium1.classList.remove("change");
+    hard1.classList.add("change");
     counts = 3;
     difficulty = 550;
 }
 
 function thirty(){
+    thirty1.classList.add("change");
+    sixty1.classList.remove("change");
+    onetwenty1.classList.remove("change");
+    oneeighty1.classList.remove("change");
+    twoforty1.classList.remove("change");
     count = 1;
     time = 30; 
 }
 
 function sixty(){
+    thirty1.classList.remove("change");
+    sixty1.classList.add("change");
+    onetwenty1.classList.remove("change");
+    oneeighty1.classList.remove("change");
+    twoforty1.classList.remove("change");
     count = 2;
     time = 60; 
 }
 
 function onetwenty(){
+    thirty1.classList.remove("change");
+    sixty1.classList.remove("change");
+    onetwenty1.classList.add("change");
+    oneeighty1.classList.remove("change");
+    twoforty1.classList.remove("change");
     count = 3;
     time = 120; 
 }
 
 function oneeighty(){
+    thirty1.classList.remove("change");
+    sixty1.classList.remove("change");
+    onetwenty1.classList.remove("change");
+    oneeighty1.classList.add("change");
+    twoforty1.classList.remove("change");
     count = 4;
     time = 180; 
 }
 
 function twoforty(){
+    thirty1.classList.remove("change");
+    sixty1.classList.remove("change");
+    onetwenty1.classList.remove("change");
+    oneeighty1.classList.remove("change");
+    twoforty1.classList.add("change");
     count = 5;
     time = 240; 
 }
@@ -369,6 +412,6 @@ function retry(){
 
 
 function music() {
-    audio.play();
+    audio1.play();
 }
 
