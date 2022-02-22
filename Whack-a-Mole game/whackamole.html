@@ -7,9 +7,7 @@
     <title>Whack-A-Mole</title>
     <link rel="stylesheet" href="whackamole.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c123ad8ef2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="main">
@@ -73,6 +71,10 @@
         <button onclick="play()" class="play">Play</button>
     </div>
 
+    <div id="sound" onclick="sound()"> 
+        <i class="fa-solid fa-volume-xmark" id="icon3"></i>
+    </div>
+
     <div id="results">
         <div class="result">
             <div class="moles">
@@ -101,6 +103,9 @@
             </div>
             <button onclick = "start()">Start</button>
         </div>
+        <div id="sound" onclick="sound()"> 
+            <i class="fa-solid fa-volume-xmark" id="icon"></i>
+        </div>
         <div class="text">
             <p>Ⓒ 2022 Vykatechnologies All Rights Reserved </p>
             <p>Like what you see?</p>
@@ -112,6 +117,9 @@
     <div id="instructions">
         <div class="instructions">
                 <div id="instructions1">
+                    <div id="sound" onclick="sound()"> 
+                        <i class="fa-solid fa-volume-xmark" id="icon1"></i>
+                    </div>
                     <h1>How To Play</h1>
                     <div class="howtoplay">
                         <ul>
@@ -125,6 +133,9 @@
                 </div>
 
                 <div id="instructions12">
+                    <div id="sound" onclick="sound()"> 
+                        <i class="fa-solid fa-volume-xmark" id="icon2"></i>
+                    </div>
                     <h1>Settings</h1>
                     <div class="howtoplay1">
                         <div class="difficulty">
@@ -155,5 +166,6 @@
         </div>
     </div>
     <script src="whackamole.js"></script>
+    <script src="sound.js"></script>
 </body>
 </html>

@@ -389,3 +389,21 @@ button:hover{
 .timedurations, .difficulties{
     margin-top: 20px;
 }
+
+#sound{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sound:hover{
+    cursor: pointer;
+}
